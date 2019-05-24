@@ -1,4 +1,6 @@
-# Create a simple tip calculator. The program should prompt for a bill amount and a tip rate. The program must compute the tip and then display both the tip and the total amount of the bill.
+# Create a simple tip calculator. The program should prompt for a bill amount 
+# and a tip rate. The program must compute the tip and then display both the tip 
+# and the total amount of the bill.
 # Format it to always return two decimal places with two zeros for example
 print 'What is the bill? '
 amount = gets.chomp.to_f

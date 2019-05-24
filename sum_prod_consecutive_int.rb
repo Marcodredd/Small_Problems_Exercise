@@ -1,4 +1,6 @@
-# Write a program that asks the user to enter an integer greater than 0, then asks if the user wants to determine the sum or product of all numbers between 1 and the entered integer.
+# Write a program that asks the user to enter an integer greater than 0, then asks if 
+# the user wants to determine the sum or product of all numbers between 1 and the entered 
+# integer.
 
 puts '<< Please enter an integer greater than 0:'
 number = gets.chomp.to_i
