@@ -1,6 +1,7 @@
-# Write a method that takes a String of digits, and returns the appropriate number as an integer. The String may have a leading + or - sign; 
-# if the first character is a +, your method should return a positive number; if it is a -, your method should return a negative number. If 
-# no sign is given, you should return a positive number.
+# Write a method that takes a String of digits, and returns the appropriate number as an integer. 
+# The String may have a leading + or - sign; if the first character is a +, your method should return 
+# a positive number; if it is a -, your method should return a negative number. If no sign is given, 
+# you should return a positive number. Make us of the string_to_integer method
 
 def string_to_signed_integer(string)
   case string[0]
